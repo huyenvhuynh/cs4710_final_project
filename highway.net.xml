@@ -1,0 +1,5 @@
+<net version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <edge id="highway" from="start" to="end" numLanes="1" speed="33.33" length="5000"/>
+    <junction id="start" type="dead_end" x="0" y="0"/>
+    <junction id="end" type="dead_end" x="5000" y="0"/>
+</net>
