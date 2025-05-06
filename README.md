@@ -1,14 +1,14 @@
 # cs4710_final_project
 
-Install python:
+### Install python:
 sudo apt update
 sudo apt-get install python3
 
-Create/activate virtual environment:
+### Create/activate virtual environment:
 python3 -m venv venv
 source venv/bin/activate
 --------------------------------------------
-Run:
+### Run:
 sudo apt-get install sumo sumo-tools sumo-doc
 pip install matplotlib
 pip install pandas
@@ -16,7 +16,7 @@ pip install numpy
 
 python test_visualization.py
 --------------------------------------------
-If you're getting "E: Unable to locate package sumo-gui":
+### If you're getting "E: Unable to locate package sumo-gui":
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:sumo/stable
 sudo apt update
@@ -28,5 +28,5 @@ mkdir build && cd build
 cmake ..
 make -j$(nproc)
 
-Run GUI:
+### Run GUI:
 ./bin/sumo-gui -c your_config.sumocfg
